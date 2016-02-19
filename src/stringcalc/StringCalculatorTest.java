@@ -142,4 +142,5 @@ public class StringCalculatorTest {
 		}
 		assertTrue(exceptionThrown);
 	}
+	
 }

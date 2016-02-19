@@ -21,11 +21,6 @@ public class ArrayCalculatorTest {
 	}
 	
 	@Test
-	public void testSumNegatives(){
-		assertEquals(calc.sumStringArray(new String[]{"-1", "2", "-5"}), -4);
-	}
-	
-	@Test
 	public void testEmptyArray() {
 		assertEquals(calc.sumStringArray(new String[]{""}), 0);
 	}

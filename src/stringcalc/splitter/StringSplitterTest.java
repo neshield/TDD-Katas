@@ -14,6 +14,20 @@ public class StringSplitterTest {
 		ss = new StringSplitter();
 	}
 	
+/*	private boolean strArraysAreEqual(String[] ret, String[] exp){
+		if(ret == null || exp == null){
+			return false;
+		}
+		
+		if(ret.length != exp.length){
+			return false;
+		}
+		for(String resS : ret){
+			for(String)
+		}
+		return true;
+	}*/
+	
 	@Test
 	public void testSplitEmptyString() {
 		assertTrue(Arrays.equals(ss.splitString("", null), new String[]{""}));
